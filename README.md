@@ -11,22 +11,22 @@ This repo build two type models to forecast gas demand:
 ### Using poetry
 This project uses [poetry 1.1.8](https://poetry.eustace.io/docs/) for dependencies and virtual environment management.
 
-### Install poetry
+#### Install poetry
 Please install poetry by follow instruction: https://python-poetry.org/docs/
 
-### Configure poetry
+#### Configure poetry
 Set poetry virtual environment in project fold: 
 ```
 poetry config virtualenvs.in-project true
 ```
 
-### Install dependencies
+#### Install dependencies
 ```
 poetry install
 ```
 
-### Active the virtual enviorment
-Please run the command in terminal
+#### Active the virtual enviorment
+Please run the command in terminal to active the virtual enviorment
 ```
 poetry shell
 ```
