@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "veyt"
+version = "0.1.0"
+description = ""
+authors = ["bowlderstudio <bowlderstudio@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+matplotlib = "3.4.2"
+scikit-learn = "^1.2.2"
+tensorflow = "2.3.0"
+keras = "2.4.3"
+pandas = "1.3"
+seaborn = "^0.12.2"
+gurobipy = "^10.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
